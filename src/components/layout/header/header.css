@@ -9,12 +9,12 @@ header {
     /* Position à 50% de la gauche */
     transform: translate(-50%, -50%);
     /* @media screen and (min-width: 1155px) {
-        background-color: black;
+        background-color: var(--bg-0);
     } */
 }
 #burger {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
 }
 header .flex {
     display: flex;

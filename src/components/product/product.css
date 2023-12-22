@@ -17,8 +17,8 @@
     min-width: 250px;
 }
 .product div {
-  background-color: whitesmoke;
-  color: black;
+  background-color: var(--bg-0);
+  color: var(--color-0);
   display: flex;
   flex-direction: column;
   align-items: center;

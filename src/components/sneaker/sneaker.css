@@ -323,10 +323,7 @@ form.form {
   margin-top: 40px !important;
 }
 
-select,
-input {
-  margin-top: 20px;
-}
+
 
 .submit-box .button {
   display: block;
