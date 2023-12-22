@@ -2,7 +2,7 @@ import { products }from "@/lib/stock";
 import Product from '@/components/product/product';
 
 
-export default function ProductPage({ params }) {
+export default function ProductPage({ params }: { params: { id: string } }) {
     console.log(params);
     
     const product = products.find(p => p.id === parseInt(params.id));
