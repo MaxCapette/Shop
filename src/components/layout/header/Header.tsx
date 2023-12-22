@@ -7,7 +7,7 @@ import DarkTheme from "./DarkTheme/DarkTheme";
 export default function Header() {
   return (
     <header>
-      <nav className="flex items-center">
+      <nav className=" headerNav flex items-center">
         <DarkTheme />
         <Link href="/">
           <Sneaker />

@@ -13,8 +13,8 @@ header {
     } */
 }
 #burger {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 }
 header .flex {
     display: flex;
@@ -60,4 +60,7 @@ nav ul ul ul li {
     position: relative;
     top: -60px;
     left: 170px;
+}
+.headerNav {
+    height: 100px;
 }

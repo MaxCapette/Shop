@@ -5,14 +5,12 @@ export interface Product {
     comment: string;
     price: string;
     link: string;
-    image: string;
+    image1: string;
+    image2: string;
+    image3: string;
     new: boolean;
 }
 
 export interface Products {
     products: Product[];
-}
-
-export interface Pictures {
-    pictures:[];
 }
