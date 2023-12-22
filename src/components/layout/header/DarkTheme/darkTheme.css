@@ -77,6 +77,5 @@ input {
     
 }
 input:checked ~ .moon {
-    opacity: 0;
-    visibility: hidden;
+   display: none;
 }
