@@ -18,3 +18,16 @@
     width: 30%;
     min-width: 300px;
 }
+
+.label {
+    height: 30px;
+    padding: 0px 10px;
+    color: white;
+    width: fit-content;
+}
+.new {
+    background-color: red;
+  }
+.hot {
+    background-color: green;
+  }
