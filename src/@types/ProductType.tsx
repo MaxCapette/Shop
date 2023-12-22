@@ -6,6 +6,7 @@ export interface Product {
     price: string;
     link: string;
     image: string;
+    new: boolean;
 }
 
 export interface Products {

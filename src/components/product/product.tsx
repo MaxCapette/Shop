@@ -1,9 +1,10 @@
 import Image from "next/image";
 import "./product.css"
+import { Product } from "@/@types/ProductType";
 // import Carousel from "../carousel/carousel";
 
 
-export default function Product({ product }) {
+export default function Product({ product }: { product: Product }) {
    
     return (
         <div className="product">
