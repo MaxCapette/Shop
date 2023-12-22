@@ -1,0 +1,28 @@
+
+.productList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    @media screen and (max-width: 768px) {
+        width: 160px;
+        
+    }
+}
+.new {
+    color: white;
+    background-color: red;
+    width: fit-content;
+    padding: 0px 10px;
+  }

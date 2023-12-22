@@ -1,0 +1,63 @@
+header {
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    position: fixed;
+    top: 7%;
+    /* Position à 50% du haut */
+    left: 50%;
+    /* Position à 50% de la gauche */
+    transform: translate(-50%, -50%);
+    /* @media screen and (min-width: 1155px) {
+        background-color: black;
+    } */
+}
+#burger {
+    width: 75px;
+    height: 75px;
+}
+header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLink {
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+
+/* Hide Dropdowns by Default */
+.navUlUl {
+    display: none;
+    position: absolute;
+    width: fit-content;
+    /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+.navUlLi:hover>ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+
+.dropdown-li {
+    background-color: black;
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+}

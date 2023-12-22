@@ -1,0 +1,17 @@
+.footerSocial {
+   display: flex;
+
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 1000px) {
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+}
