@@ -1,20 +1,19 @@
-import { products }from "@/lib/stock";
-import Product from '@/components/product/product';
-
+import { products } from "@/lib/stock";
+import Product from "@/components/product/product";
 
 export default function ProductPage({ params }: { params: { id: string } }) {
-    console.log(params);
-    
-    const product = products.find(p => p.id === parseInt(params.id));
+  console.log(params);
 
-    console.log(product);
-    if (!product) {
-        return <div>Produit non trouvé</div>;
-    }
+  const product = products.find((p) => p.id === parseInt(params.id));
+
+  console.log(product);
+  if (!product) {
+    return <div>Produit non trouvé</div>;
+  }
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between pt-40">
-      <Product product={product}/>
+      <Product product={product} />
     </main>
-  )
+  );
 }

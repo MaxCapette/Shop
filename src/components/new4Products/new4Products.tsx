@@ -1,22 +1,25 @@
+import Product from "@/components/layout/productUnique/product";
 import { products } from "@/lib/stock";
 import Image from "next/image";
 import Link from "next/link";
-import Labels from "@/components/labels/labels";
-import "./products.css";
+import Labels from "../labels/labels";
+import "./new4Products.css";
 
-export default function Products() {
+export default function New4Products() {
   return (
-    <main className="flex flex-col items-center justify-between pt-40">
-      <h2>Products</h2>
+    <>
+      <h2>New Products</h2>
       <div className="productList">
+    
         {products.map((product) => (
+            product.new && (
           <div className="card" key={product.id}>
             <Link
               className="link"
               key={product.id}
               href={`/products/${product.id}`}
             >
-              <Labels {...product} />
+             <Labels { ...product } />
               <h3>{product.name}</h3>
               <Image
                 className="productPhoto"
@@ -29,8 +32,8 @@ export default function Products() {
               <p>{product.price}€</p>
             </Link>
           </div>
-        ))}
+        )))}
       </div>
-    </main>
+    </>
   );
 }
