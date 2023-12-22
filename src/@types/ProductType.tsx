@@ -6,8 +6,8 @@ export interface Product {
     price: string;
     link: string;
     image1: string;
-    image2: string;
-    image3: string;
+    image2?: string;
+    image3?: string;
     new: boolean;
 }
 
