@@ -37,14 +37,14 @@ header .flex {
     display: none;
     position: absolute;
     width: fit-content;
-    right: 0;
-
+    
     /* the height of the main nav */
 }
 
 /* Display Dropdowns on Hover */
 .navUlLi:hover>ul {
     display: inherit;
+    right: 40px;
 }
 
 /* Fisrt Tier Dropdown */
