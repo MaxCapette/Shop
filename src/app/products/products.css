@@ -4,10 +4,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin: 0;
     width: 100%;
     max-width: 1280px;
+
 }
 
 .card {
@@ -15,12 +16,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: 0;
-    width: 300px;
-    @media screen and (max-width: 768px) {
-        width: 160px;
-        
-    }
+    margin: 10px;
+    width: 30%;
+    min-width: 300px;
 }
 .card h3 {
     white-space: nowrap; /* Empêche le texte de passer à la ligne suivante */
@@ -50,6 +48,6 @@
   }
 
 .productPhoto {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+   
   }

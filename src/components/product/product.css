@@ -16,18 +16,17 @@
     gap: 5px;
     min-width: 250px;
 }
-.product div {
+
+.productDiv {
+  
   background-color: var(--bg-0);
   color: var(--color-0);
   display: flex;
-  
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   max-width: 1024px;
   width: 100%;
-}
-.productDiv {
-  flex-direction: column;
 }
 
 /* button */
@@ -129,9 +128,3 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
     width: 100%;
   }
     
-  .new {
-    color: white;
-    background-color: red;
-    width: fit-content;
-    padding: 0px 10px;
-  }

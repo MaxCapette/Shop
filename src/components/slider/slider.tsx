@@ -17,8 +17,8 @@ export default function  Slider  ({ images }: SliderProps)  {
   return (
     <div>
       <SimpleImageSlider
-        width={1024}
-        height={1024}
+        width={600}
+        height={600}
         images={images}
         showBullets={false}
         showNavs={true}

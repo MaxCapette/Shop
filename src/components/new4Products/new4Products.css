@@ -1,5 +1,5 @@
 
-.product4List {
+.productList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,47 +9,12 @@
     width: 100%;
     max-width: 1280px;
 }
-
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: 0;
-    width: 300px;
-    @media screen and (max-width: 768px) {
-        width: 160px;
-        
-    }
+    margin: 10px;
+    width: 30%;
+    min-width: 300px;
 }
-.card h3 {
-    white-space: nowrap; /* Empêche le texte de passer à la ligne suivante */
-    overflow: hidden; /* Cache le texte qui déborde de l'élément */
-    text-overflow: ellipsis; /* Ajoute des points de suspension si le texte est tronqué */
-    width: 300px;
-}
-.labels {
-    display: flex;
-
-  
-    width: 100%;
-    margin: 0;
-
-}
-.label {
-    height: 30px;
-    padding: 0px 10px;
-    color: white;
-    width: fit-content;
-}
-.new {
-    background-color: red;
-  }
-.hot {
-    background-color: green;
-  }
-
-.productPhoto {
-    width: 300px;
-    height: 300px;
-  }
