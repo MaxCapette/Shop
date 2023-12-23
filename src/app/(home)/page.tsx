@@ -1,5 +1,7 @@
+import Loader from "@/components/layout/loader/Loader";
 import New4Products from "@/components/new4Products/new4Products";
 import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
         width={1024}
         height={1024}
       ></Image>
+     
       <New4Products />
     </main>
   );
