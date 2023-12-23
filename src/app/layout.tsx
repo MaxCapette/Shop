@@ -5,7 +5,7 @@ import Header from "@/components/layout/header/Header";
 import Footer from "@/components/layout/footer/Footer";
 import Head from "next/head";
 import { Suspense } from "react";
-import Loading from "./Loading";
+import Loading from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +19,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  
   return (
     <html lang="en">
       <Head>
@@ -28,8 +27,9 @@ export default function RootLayout({
       </Head>
       <body className={inter.className}>
         <Header />
-        <Suspense fallback={<Loading />}>{children} </Suspense>
-        
+        <Suspense fallback={<Loading />}>
+          {children} 
+        </Suspense>
         <Footer />
       </body>
     </html>
