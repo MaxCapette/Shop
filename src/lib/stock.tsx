@@ -44,7 +44,7 @@ export const products = [
     price: "6.08",
     link: "lien4.com",
     images: ["/images/products/4/1.png", "/images/products/4/2.png", "/images/products/4/3.png"],
-    new: true,
+    new: false,
     popular: true,
   },
   {
@@ -80,7 +80,7 @@ export const products = [
     price: "14.75",
     link: "lien7.com",
     images: ["/images/products/7/1.png", "/images/products/7/2.png", "/images/products/7/3.png"],
-    new: true,
+    new: false,
     popular: false,
   },
   {
@@ -92,7 +92,7 @@ export const products = [
     price: "3.40",
     link: "lien8.com",
     images: ["/images/products/8/1.png", "/images/products/8/2.png", "/images/products/8/3.png"],
-    new: true,
+    new: false,
     popular: false,
   },
   {
@@ -104,7 +104,7 @@ export const products = [
     price: "16.76",
     link: "lien9.com",
     images: ["/images/products/9/1.png", "/images/products/9/2.png", "/images/products/9/3.png"],
-    new: true,
+    new: false,
     popular: false,
   },
   {
@@ -128,6 +128,18 @@ export const products = [
     price: "7.20",
     link: "lien10.com",
     images: ["/images/products/11/1.png", "/images/products/11/2.png", "/images/products/11/3.png"],
+    new: true,
+    popular: false,
+  },
+  {
+    id: 12,
+    name: "Mini caméra HD",
+    description:
+      "Mini caméra HD portable pour la maison et le bureau, petite caméra nounou, enregistreur vocal vidéo, caméra de sécurité secrète intérieure, 1080P",
+    comment: "• Haute définition 1080P :Capturez des images claires et détaillées avec la résolution 1080P haute définition de l'appareil photo",
+    price: "3.69",
+    link: "https://fr.aliexpress.com/item/1005005738703502.html",
+    images: ["/images/products/12/1.png", "/images/products/12/2.png", "/images/products/12/3.png", "/images/products/12/4.png", "/images/products/12/5.png"],
     new: true,
     popular: false,
   },

@@ -6,12 +6,13 @@ import Labels from "../labels/labels";
 import "./new4Products.css";
 
 export default function New4Products() {
+  const reversedProducts = [...products].reverse();
   return (
     <>
       <h2>New Products</h2>
       <div className="productList">
     
-        {products.map((product) => (
+        {reversedProducts.map((product) => (
             product.new && (
           <div className="card" key={product.id}>
             <Link
